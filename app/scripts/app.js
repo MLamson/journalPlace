@@ -1,4 +1,4 @@
-var journalApp = angular.module('journalApp', []);
+var journalApp = angular.module('journalApp', ['ngMessages']);
 
 
 
