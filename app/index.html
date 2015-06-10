@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="journalApp">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
@@ -9,6 +9,7 @@
     <!-- bower:css -->
     <link rel="stylesheet" href="../bower_components/normalize-css/normalize.css" />
     <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -17,6 +18,13 @@
     <!-- endbuild -->
   </head>
   <body>
+
+    <div class="container">
+      
+      <div ng-controller="mainController">
+        <h1>Hello World!</h1>
+      </div>
+    </div>
 
    
 
@@ -29,11 +37,12 @@
     <script src="../bower_components/jquery/dist/jquery.js"></script>
     <script src="../bower_components/underscore/underscore.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
         <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
+        <script src="scripts/app.js"></script>
         <!-- endbuild -->
 </body>
 </html>
