@@ -34,6 +34,18 @@
           </div>
 
         </form>
+
+        <h1>Hello {{ name + '. How are you?'}}!</h1>
+
+        <div>
+            <label>What is your twitter handle?</label>
+            <input type="text" ng-model="handle" />
+        </div>
+
+        <hr />
+
+        <h1>twitter.com/{{ lowercasehandle() }}</h1>
+
       </div>
     </div>
 
